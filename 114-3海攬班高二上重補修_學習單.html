@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>114-3海攬班高二上重補修_學習單</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <style>
+    :root {
+      --text: #37352f;
+      --muted: rgba(55, 53, 47, 0.68);
+      --border: rgba(55, 53, 47, 0.16);
+      --soft-bg: rgba(241, 241, 239, 0.78);
+      --link-underline: rgba(55, 53, 47, 0.35);
+    }
+
+    @page {
+      size: A4;
+      margin: 12mm 14mm 13mm;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      background: #f7f7f5;
+    }
+
+    body {
+      font-family: "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.46;
+      letter-spacing: 0;
+      margin: 0;
+      padding: 0;
+      overflow-wrap: break-word;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    @media screen {
+      body {
+        max-width: 182mm;
+        margin: 24px auto;
+        padding: 12mm 14mm;
+        background: #fff;
+        box-shadow: 0 10px 34px rgba(15, 23, 42, 0.12);
+      }
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.22;
+      margin: 0 0 18px;
+      page-break-after: avoid;
+      break-after: avoid;
+    }
+
+    h2 {
+      font-size: 21px;
+      font-weight: 600;
+      line-height: 1.28;
+      margin: 22px 0 7px;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.32;
+      margin: 16px 0 4px;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    p {
+      margin: 3px 0;
+      min-height: 1em;
+    }
+
+    ul, ol {
+      margin: 4px 0 7px;
+      padding-left: 1.45em;
+    }
+
+    li {
+      margin: 2px 0;
+      padding-left: 0.1em;
+    }
+
+    li > ul,
+    li > ol {
+      margin: 2px 0 2px;
+    }
+
+    blockquote {
+      border-left: 3px solid rgba(55, 53, 47, 0.35);
+      padding: 5px 10px;
+      margin: 8px 0;
+      background: var(--soft-bg);
+      color: var(--text);
+      break-inside: avoid;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 9px 0;
+      font-size: 13px;
+      line-height: 1.35;
+      table-layout: auto;
+      break-inside: avoid;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 6px 8px;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: rgb(247, 246, 243);
+      font-weight: 600;
+    }
+
+    figure.notion-image {
+      margin: 8px 0;
+      text-align: center;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    figure.notion-image img {
+      max-width: min(100%, 112mm);
+      max-height: 84mm;
+      width: auto;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      object-fit: contain;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .column figure.notion-image {
+      margin: 4px 0;
+    }
+
+    .column figure.notion-image img {
+      max-width: 100%;
+      max-height: 56mm;
+    }
+
+    figcaption {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    .callout {
+      display: flex;
+      align-items: flex-start;
+      border-radius: 4px;
+      padding: 9px 11px;
+      margin: 8px 0;
+      page-break-inside: avoid;
+      break-inside: avoid;
+      width: 100%;
+    }
+
+    .callout-emoji {
+      font-size: 1.5em;
+      margin-right: 10px;
+      flex-shrink: 0;
+      line-height: 1.3;
+    }
+
+    .callout-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .callout-content p {
+      margin: 2px 0;
+    }
+
+    .math-block {
+      margin: 8px 0;
+      text-align: center;
+      overflow-x: auto;
+      break-inside: avoid;
+    }
+
+    .katex { font-size: 1.04em; }
+
+    .katex-display {
+      margin: 0.45em 0;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    code {
+      background: rgba(135, 131, 120, 0.15);
+      color: #eb5757;
+      border-radius: 3px;
+      font-size: 85%;
+      padding: 0.16em 0.34em;
+      font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+      overflow-wrap: anywhere;
+    }
+
+    pre {
+      background: rgb(247, 246, 243);
+      border-radius: 4px;
+      padding: 16px;
+      overflow-x: auto;
+    }
+    pre code {
+      background: transparent;
+      color: inherit;
+      padding: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--link-underline);
+      text-underline-offset: 3px;
+      overflow-wrap: anywhere;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid rgb(233, 233, 231);
+      margin: 8px 0;
+    }
+
+    details {
+      margin: 4px 0;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .column-list {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      margin: 5px 0 7px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .child-page {
+      margin: 0;
+    }
+
+    .child-page + .child-page {
+      margin-top: 20px;
+    }
+
+    .todo {
+      margin: 2px 0;
+    }
+
+    @media print {
+      html { background: #fff; }
+
+      body {
+        font-size: 14px;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1, h2, h3 {
+        break-after: avoid;
+        page-break-after: avoid;
+      }
+
+      h2, h3, figure.notion-image, .callout, blockquote, tr, details, .math-block, .column-list {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      p, li {
+        orphans: 2;
+        widows: 2;
+      }
+
+      a {
+        text-decoration-thickness: 0.5px;
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>114-3海攬班高二上重補修_學習單</h1>
+<h2>Topic 1: Advanced 1D Kinematics</h2><p>Q1-1</p><p>(a) If an object moves steadily from <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m</span></span></span></span></span> to <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">14</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m</span></span></span></span></span> in <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span>, what is its average velocity?<br>(b) Draw the Position-Time (x-t) graph for this object, and find its position at <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span>.<br>(c) From your x-t graph in (a) and (b), calculate the &quot;slope&quot; for the time intervals <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span> and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span>. What physical quantity does the slope represent? What does a constant (same) slope mean?</p><ul><li>Reference Video: <code>Interpreting motion data | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q1-2</p><p>(a) A car's velocity increases steadily from <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span> to <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">12</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span> in <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span>. What is its average acceleration?<br>(b) Draw the Velocity-Time (v-t) graph for this car. What is its velocity exactly at <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span> ? <br>(c) Calculate the &quot;slope&quot; of this v-t graph. What physical quantity does this slope represent? Also, calculate the &quot;area under the curve” from <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span> to <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span>. What physical quantity does this area represent?</p><ul><li>Reference Video: <code>Interpreting motion data | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q1-3: An airplane accelerates down a runway from rest (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span>) at a constant rate of <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord text"><span class="mord">m/s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span> for <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span>. Here are three main kinematic equations:<br>(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.7333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6151em;"></span><span class="mord mathnormal">a</span><span class="mord mathnormal">t</span></span></span></span><br>(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.7651em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathnormal">a</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><br>(3) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.9641em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord">2</span><span class="mord mathnormal">a</span><span class="mord">Δ</span><span class="mord mathnormal">x</span></span></span></span><br>(a) Choose the formula that you need, plug in the values, and calculate its final velocity just before takeoff.<br>(b) Now, solve the exact same problem by drawing a Velocity-Time (v-t) graph for this airplane. Explain how you find the final velocity at <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span> using only the graph (without plugging numbers into the formula).</p><ul><li>Reference Video: <code>Developing kinematic equations from data | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q1-4: Using the same airplane from Q1-3 (acceleration = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord text"><span class="mord">m/s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>, time = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span>, initial velocity = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span>), we want to know the distance it traveled. <br>(a) Based on three main kinematic equations in Q1-3, choose the correct formula, plug in the values, and calculate how far the airplane traveled.<br>(b) Now, solve the exact same problem by looking at the Velocity-Time (v-t) graph you drew in Q1-3.</p><ul><li>Reference Video: <code>Developing kinematic equations from data | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q1-5: A car is traveling at <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span>. The driver hits the brakes, providing a constant deceleration of <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord">−</span><span class="mord">5</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord text"><span class="mord">m/s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span> until it comes to a complete stop (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span>).<br>(a) Using the three kinematic equations listed in Q1-3, choose the correct formula(s) to calculate the total stopping distance (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">x</span></span></span></span>).<br>(b) Now, solve the exact same problem by drawing a Velocity-Time (v-t) graph for this braking car. Denote how you can find the stopping time, and determine the total stopping distance purely from the graph.</p><ul><li>Reference Video: <code>Developing kinematic equations from data | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q1-6: You drop a stone from a tall bridge from rest (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord">−</span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord text"><span class="mord">m/s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>). It takes exactly <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span> to hit the water. <br>(a) Using the three kinematic equations, choose the correct formulas to calculate TWO things: its final velocity just before hitting the water, and its displacement.<br>(b) Now, solve the exact same problem by drawing a Velocity-Time (v-t) graph. Denote the final velocity from the graph ,and determine the displacement. Why is the area a negative number?</p><ul><li>Reference Video: <code>Acceleration | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q1-7: A baseball is thrown straight up into the air with an initial velocity of +15 m/s. Gravity acts on it with <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord">−</span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord text"><span class="mord">m/s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>. At its maximum height, its instantaneous velocity is exactly <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span>.<br>(a) Using the three kinematic equations, choose the correct formula to calculate the maximum height it reaches.<br>(b) Now, solve the exact same problem by drawing a Velocity-Time (v-t) graph. (hint: The line will start at v = +15 and have a negative slope.) </p><ul><li>Reference Video: <code>Position, velocity, and speed | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q1-8: A sprinter runs in a two-stage motion.</p><p>(a) Stage 1: A sprinter starts from rest (0 m/s) and accelerates at 2 m/s² for 4 s. What is his speed at the 4-second mark? How far did he run during these 4 seconds?<br>(b) Stage 2: He then maintains that top speed (constant velocity) for another 6 s. How far did he run during Stage 2?<br>(c) What is his total displacement for the entire 10 seconds? Draw a v-t graph for this 10-second run to verify your answer.</p><ul><li>Reference Video: <code>Interpreting motion data | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><h2>Topic 2: 2D Kinematics and Projectiles</h2><p>Q2-1: You are on a cliff that is <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">45</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m</span></span></span></span></span> high. We use <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord">−</span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord text"><span class="mord">m/s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>.<br>(a) Ball A is dropped vertically from rest. What are its initial horizontal velocity (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>) and initial vertical velocity (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight" style="margin-right:0.0359em;">y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span>)?<br>(b) Calculate the time it takes to hit the ground. <br>(c) Ball B is thrown perfectly horizontally at a fast speed of <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span>. What is its initial horizontal velocity (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>) and its initial vertical velocity (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight" style="margin-right:0.0359em;">y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span>)?<br>(c) Using the <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight" style="margin-right:0.0359em;">y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span> you just found for Ball B, calculate the time it takes to hit the ground.<br>(d) Compare your answers for (a) and (c). Does the horizontal speed of Ball B change its falling time?</p><ul><li>Reference Video: <code>Kinematics of projectiles | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q2-2: Look at Ball B from Q2-1 again (cliff height = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">45</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m</span></span></span></span></span>, launched horizontally at <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span>).<br>(a) Once the ball leaves your hand, gravity is the only force acting on it. Which direction does gravity pull?<br>(b) Ignoring air resistance, what is its horizontal acceleration (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>)? What kind of motion does Ball B have in the horizontal direction?<br>(c) Calculate the horizontal distance (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">x</span></span></span></span>) Ball B traveled during its <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">s</span></span></span></span></span><strong> </strong>in the air.</p><ul><li>Reference Video: <code>Horizontally launched projectiles | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q2-3: A stunt car wants to drive off a perfectly flat, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m</span></span></span></span></span><strong> </strong>high cliff and safely land on a target pad that is exactly <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">30</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m</span></span></span></span></span><strong> </strong>away from the base of the cliff.<br>(a) Y-AXIS First: Using the height of the cliff, calculate how long (t) the car will be falling in the air.<br>(b) X-AXIS Next: What must be the car's initial horizontal speed (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>) to hit the target?</p><ul><li>Reference Video: <code>Horizontally launched projectiles | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q2-4: In 2D kinematics, any diagonal movement must be broken down into horizontal (X) and vertical (Y) parts using trigonometry (SOH CAH TOA). Suppose you kick a soccer ball with an initial velocity of <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">25</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">m/s</span></span></span></span></span> at an angle of <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6944em;"></span><span class="mord">53°</span></span></span></span> above the ground.<br>(a) Write down the components for the initial horizontal velocity (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>) and vertical velocity (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight" style="margin-right:0.0359em;">y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span>) using <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6679em;"></span><span class="mop">sin</span></span></span></span> and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.4306em;"></span><span class="mop">cos</span></span></span></span>.<br>(b) Calculate the exact values of <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathnormal mtight" style="margin-right:0.0359em;">y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span>.</p><ul><li>Reference Video: <code>Visualizing vectors in 2 dimensions | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q2-5: Based on Q2-4, now focus ONLY on the Y-AXIS.<br>(a) At the highest point, what’s  the vertical velocity (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.0359em;">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span>)?<br>(b) Calculate the maximum height (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0813em;">H</span></span></span></span>) the ball reaches.<br>(c) Calculate the time it takes to reach the max height.<br>(d) Find the total time the ball is in the air.</p><ul><li>Reference Video: <code>Projectiles at an angle | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q2-6: Same base on Q2-4, and use the information for Q2-5. Now focus ONLY on the X-AXIS.<br>(a) Does gravity affect the X-axis? What is the horizontal acceleration (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>)?<br>(b) Calculate the total horizontal distance (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">Δ</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span> the ball traveled.</p><ul><li>Reference Video: <code>Projectiles at an angle | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p>Q2-7: Same base on Q2-4, and use the information for Q2-5 and Q2-6.<br>(a) It takes 2 s to reach the maximum height. How long does it take to fall from the maximum height back to the ground?<br>(b) Right before it hits the ground, what is its horizontal and vertical velocity respectively?<br>(c) Based on your answers in (b), what is the total speed of the ball right before it hits the ground?</p><ul><li>Reference Video: <code>Projectiles at an angle | AP Physics | Khan Academy</code></li><li>Explained by:</li><li>Explanation:</li></ul><p><br></p><p><br></p><p><br></p><p><br></p>
+</body>
+</html>
